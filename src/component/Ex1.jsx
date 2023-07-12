@@ -1,5 +1,6 @@
 import React,{ useState } from "react";
 
+
 /* const arrow functions compponent*/
 
 const Ex1 = (props)=>{

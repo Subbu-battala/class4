@@ -2,7 +2,7 @@ import React, {useState} from "react";
 
 function Ex4(props){
     const [num,setNum] = useState(0)
-    const [dec,setDec] = useState(200)
+    const [dec,setDec] = useState(0)
 
     const incValue = (val) => {
         console.log('value=', val);
@@ -28,7 +28,7 @@ function Ex4(props){
                     <hr />
                     <button onClick={()=> incValue(50)} className="btn btn-success">Add + 50</button>
                     <hr />
-                    <button onClick={()=> incValue(-50)} className="btn btn-success">Add - 50</button>
+                    <button onClick={()=> decValue(-50)} className="btn btn-danger">Add - 50</button>
                 </div>
 
             </div>
