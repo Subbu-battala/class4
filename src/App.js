@@ -8,14 +8,17 @@ import Ex6 from "./component/Ex6";
 import Ex7 from "./component/Ex7"
 import Ex8 from "./component/Ex8";
 import Ex9 from "./component/Ex9";
+import Ex10 from "./component/Ex10";
+import Ex11 from "./component/Ex11";
 
 function App(props) {
   return(
     <div className="container">
       <div className="row">
         <div className="col-md-12 text-center">
-          <h3 className="display-3 text-success">Ract Hooks</h3>
-          <Ex9 itemPerPage = {50} />
+          <h3 className="display-3 text-success">React Hooks</h3>
+          {/* <Ex9 itemPerPage = {20} /> */}
+          <Ex11/>
         </div>
       </div>
 
